@@ -9,10 +9,12 @@ console.log(namakalian());
 
 // Perkalian
 
-function kall(x, y) {- return x-*-y;-
+function kali(x, y) {
+  return x * y;
+}
 
-let basilkali kali(6, 2):- console.log("XXZ+ hasilkali)
-
+let hasilkali = kali(6, 2);
+console.log("Hasil perkalian:", hasilkali);
 
 // Biodata
 
