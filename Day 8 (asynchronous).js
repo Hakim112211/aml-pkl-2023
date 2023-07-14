@@ -1,24 +1,19 @@
 // Fungsi simulasi asynchronous
 function getDataFromServer() {
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     setTimeout(() => {
-      const data = "Data dari server";
-      resolve(data);
-    }, 2000); // Delay 2 detik untuk simulasi pengambilan data dari server
+      resolve("Data dari server");
+    }, 2000);
   });
 }
 
-// Fungsi yang menggunakan async/await
-async function main() {
-  try {
-    console.log("Memulai pengambilan data...");
-    const result = await getDataFromServer();
+// Panggil fungsi getDataFromServer dan tampilkan data
+console.log("Memulai pengambilan data...");
+getDataFromServer()
+  .then(result => {
     console.log("Data diterima:", result);
     console.log("Selesai.");
-  } catch (error) {
+  })
+  .catch(error => {
     console.log("Terjadi kesalahan:", error);
-  }
-}
-
-// Panggil fungsi main
-main();
+  });
