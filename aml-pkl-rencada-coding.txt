@@ -1,7 +1,5 @@
 RENCANA CODING
 
--HTML
-*memahami apa yang ada di HTML
 -CSS
 *memahami var yang ada di css
 -PHP
