@@ -4,10 +4,10 @@ RENCANA CODING
 *memahami var yang ada di css
 -PHP
 *mempelajari hal baru di php
-*mempelajari fitur baru di php
+*mempalajari fitur baru
 -JAVASCRIPT
--mempalajari tentang javascript
+*mempalajari tentang javascript
 -memahami tentang server
 *seperti localhost
 *database
-*XAMPP
+-Phyton
