@@ -8,3 +8,6 @@ RENCANA CODING
 *mempelajari hal baru di php
 -JAVASCRIPT
 -mempalajari tentang javascript
+-memahami tentang server
+*seperti localhost
+*database
